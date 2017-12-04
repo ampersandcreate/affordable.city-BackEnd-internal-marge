@@ -1,0 +1,53 @@
+{
+    "name": "Affordable.City",
+    "version": "1.0.0",
+    "description": "Affordable.City Backend API using JWTs, MySQL, Express and the Sequelize ORM.",
+    "main": "server.js",
+    "scripts": {
+        "test": "ls && npm run lint",
+        "lint": "eslint --format unix '**/*.js' '**/*.jsx' '.*.js'"
+    },
+    "keywords": [
+        "express",
+        "jwt-authentication",
+        "jwt",
+        "mysql",
+        "angular",
+        "sequelize",
+        "authentication"
+    ],
+    "author": "ampersandcreate",
+    "license": "MIT",
+    "dependencies": {
+        "angular": "^1.6.2",
+        "bcrypt": "^1.0.2",
+        "body-parser": "^1.17.1",
+        "cluster": "^0.7.7",
+        "compression": "^1.7.1",
+        "errorhandler": "^1.5.0",
+        "express": "^4.15.2",
+        "express-validator": "^4.3.0",
+        "fs": "0.0.1-security",
+        "helmet": "^3.9.0",
+        "jsonwebtoken": "^7.3.0",
+        "morgan": "^1.8.1",
+        "mysql": "^2.13.0",
+        "mysql2": "^1.5.0",
+        "node-geocoder": "^3.21.0",
+        "nodemailer": "^4.3.1",
+        "nodemailer-smtp-transport": "^2.7.4",
+        "passport": "^0.4.0",
+        "passport-jwt": "^3.0.1",
+        "path": "^0.12.7",
+        "save": "^2.3.1",
+        "sequelize": "^4.22.6",
+        "sequelize-transactions": "^1.0.1",
+        "winston": "^2.4.0"
+    },
+    "devDependencies": {
+        "@types/node": "^8.0.51",
+        "eslint": "^4.11.0",
+        "eslint-config-airbnb-base": "^12.1.0",
+        "eslint-plugin-import": "^2.8.0"
+    }
+}
