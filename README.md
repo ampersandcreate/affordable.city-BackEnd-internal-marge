@@ -6,7 +6,6 @@
 ```
 npm install
 ```
-
 ### Starting the Server
 In order to start the server run:
 ```
