@@ -10,4 +10,4 @@ npm install
 ### Starting the Server
 In order to start the server run:
 ```
-node app/cluster.js
+node cluster.js
